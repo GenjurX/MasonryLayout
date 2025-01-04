@@ -1,0 +1,84 @@
+.header{
+    background-color: #f8fcfc !important;
+    margin: auto;
+    padding: 5px;
+}
+.header h1{
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 3rem;
+    /* position: absolute; */
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background: #f8fcfc !important;
+  }
+  :root{
+    overflow-x: hidden;
+  }
+  #root{
+    background-color: #eceaea;
+  }
+  #mainSection{
+    margin-top: 5rem;
+  }
+  .my-masonry-grid {
+    display: flex;
+    margin-left: -16px; /* Adjust for gutter */
+    width: auto;
+  }
+  
+  .my-masonry-grid_column {
+    padding-left: 16px; /* Gutter size */
+    background-clip: padding-box;
+  }
+  
+  .grid-item {
+    margin-bottom: 16px; /* Gutter size */
+    animation: zoomIn 1s ease-in-out forwards;
+
+  }
+  
+  .grid-item img {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+
+  .responsive-text {
+    font-size: 16px; /* Default size */
+  }
+@media (min-width: 768px) {
+    .responsive-text {
+      font-size: 20px; /* Medium screen size */
+    }
+}
+  @media (min-width: 992px) {
+    .responsive-text {
+      font-size: 30px;
+      /* Large screen size */
+    }
+}
+.footer h5{
+  font-size: 14px!important;
+  padding: 10px;
+}
+
+/* Zoom-in animation for new images */
+
+/* Keyframe animation for zoom-in effect */
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
