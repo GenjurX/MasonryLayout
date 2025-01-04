@@ -1,11 +1,11 @@
 # React + Vite Masonry gallery
 
+- This is a masonry gallery built using react 18.3.1 , bootstrap 5.0, react-masonry-css, FancyBox, and react-infinite-scroll
+
 ## Setup Instructions
 
-1. **Clone the repository**:
+- Clone the repository**:
 
-2. **Install dependencies
-     npm install
+- npm install
    
-4. **Run the project locally
-     npm run dev
+- npm run dev
